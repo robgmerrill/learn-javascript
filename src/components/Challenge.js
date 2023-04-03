@@ -28,7 +28,7 @@ const Challenge = () => {
     return (
       <div>
         <h1>Challenge: Create a const variable</h1>
-        <p>Declare a const variable named 'myVariable' and assign it the value 5.</p>
+        <p>Declare a const variable named &apos;myVariable&apos; and assign it the value 5.</p>
         <form onSubmit={handleSubmit}>
           <CodeEditor value={code} onChange={setCode} />
           <button type="submit">Submit</button>
@@ -41,7 +41,7 @@ const Challenge = () => {
             <button onClick={handleHintClick}>Need a hint?</button>
             {showHint && (
               <div>
-                <p>Remember, you need to use the 'const' keyword to declare a constant variable.</p>
+                <p>Remember, you need to use the &apos;const&apos; keyword to declare a constant variable.</p>
               </div>
             )}
           </>
